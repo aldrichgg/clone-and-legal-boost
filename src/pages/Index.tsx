@@ -8,16 +8,17 @@ import rocketIcon from "@/assets/rocket.png";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
-      {/* Starry background effect */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background"></div>
-      <div className="absolute inset-0" style={{
-        backgroundImage: `radial-gradient(circle at 20% 50%, rgba(197, 218, 255, 0.1) 0%, transparent 50%),
-                         radial-gradient(circle at 80% 80%, rgba(197, 218, 255, 0.1) 0%, transparent 50%),
-                         radial-gradient(circle at 40% 20%, rgba(197, 218, 255, 0.05) 0%, transparent 50%)`
-      }}></div>
+    <>
+      <div className="min-h-screen bg-background relative overflow-hidden">
+        {/* Starry background effect */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background"></div>
+        <div className="absolute inset-0" style={{
+          backgroundImage: `radial-gradient(circle at 20% 50%, rgba(197, 218, 255, 0.1) 0%, transparent 50%),
+                           radial-gradient(circle at 80% 80%, rgba(197, 218, 255, 0.1) 0%, transparent 50%),
+                           radial-gradient(circle at 40% 20%, rgba(197, 218, 255, 0.05) 0%, transparent 50%)`
+        }}></div>
 
-      <div className="relative z-10 container mx-auto px-4 py-12 md:py-20">
+        <div className="relative z-10 container mx-auto px-4 py-12 md:py-20">
         {/* Hero Section */}
         <div className="text-center mb-16 animate-fade-in">
           <div className="flex justify-center mb-8">
@@ -137,11 +138,12 @@ const Index = () => {
           </p>
         </div>
       </div>
-
-      <Footer />
-      <CookieConsent />
-      <WhatsAppButton />
     </div>
+      
+    <Footer />
+    <CookieConsent />
+    <WhatsAppButton />
+  </>
   );
 };
 
