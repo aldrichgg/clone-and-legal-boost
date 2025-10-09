@@ -128,7 +128,7 @@ const Index = () => {
             size="lg"
             className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-xl px-12 py-6 rounded-full shadow-2xl hover:scale-105 transition-all duration-300 mb-8"
           >
-            COMEÇAR AGORA
+            <a href="http://impulsegram.shop/" rel="noopener noreferrer"></a>COMEÇAR AGORA
           </Button>
 
           <p className="text-foreground text-sm md:text-base max-w-2xl mx-auto">
