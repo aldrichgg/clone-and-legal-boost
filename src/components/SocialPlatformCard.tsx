@@ -11,14 +11,16 @@ interface SocialPlatformCardProps {
 
 export const SocialPlatformCard = ({ icon: Icon, name, url, iconColor, customIcon }: SocialPlatformCardProps) => {
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="block">
-      <Card className="bg-secondary hover:bg-secondary/80 border-border transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/20 p-8 flex flex-col items-center justify-center gap-4 cursor-pointer">
+    <a href={url} target="_blank" rel="noopener noreferrer" className="block group">
+      <Card className="bg-secondary/50 hover:bg-secondary/80 border-border/50 hover:border-primary/30 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-primary/20 p-8 flex flex-col items-center justify-center gap-6 cursor-pointer backdrop-blur-sm group-hover:bg-gradient-to-br group-hover:from-secondary/60 group-hover:to-secondary/40">
         {customIcon ? (
-          customIcon
+          <div className="group-hover:animate-pulse">
+            {customIcon}
+          </div>
         ) : (
-          <Icon className={`w-16 h-16 ${iconColor || 'text-foreground'}`} />
+          <Icon className={`w-16 h-16 ${iconColor || 'text-foreground'} group-hover:scale-110 transition-transform duration-300`} />
         )}
-        <span className="text-xl font-semibold text-foreground">{name}</span>
+        <span className="text-xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">{name}</span>
       </Card>
     </a>
   );
