@@ -55,7 +55,7 @@ const Index = () => {
             <SocialPlatformCard
               icon={Instagram}
               name="Instagram"
-              url="https://impulsegram.shop/"
+              url="https://impulsegram.shop?utm_source=google.ads&utm_medium=ad&utm_campaign=Google+Ads&utm_id=1759859029804h68fh"
               customIcon={
                 <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 flex items-center justify-center shadow-2xl shadow-purple-500/30 hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110">
                   <svg viewBox="0 0 24 24" className="w-12 h-12 text-white drop-shadow-lg" fill="currentColor">
@@ -68,7 +68,7 @@ const Index = () => {
             <SocialPlatformCard
               icon={Music2}
               name="TikTok"
-              url="https://impulsegram.shop/"
+              url="https://impulsegram.shop?utm_source=google.ads&utm_medium=ad&utm_campaign=Google+Ads&utm_id=1759859029804h68fh"
               customIcon={
                 <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-black via-gray-900 to-gray-800 flex items-center justify-center shadow-2xl shadow-black/50 hover:shadow-cyan-500/30 transition-all duration-300 hover:scale-110 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/20 via-pink-500/20 to-purple-500/20 animate-pulse"></div>
@@ -82,7 +82,7 @@ const Index = () => {
             <SocialPlatformCard
               icon={Youtube}
               name="YouTube"
-              url="https://impulsegram.shop/"
+              url="https://impulsegram.shop?utm_source=google.ads&utm_medium=ad&utm_campaign=Google+Ads&utm_id=1759859029804h68fh"
               customIcon={
                 <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center shadow-2xl shadow-red-500/30 hover:shadow-red-500/50 transition-all duration-300 hover:scale-110">
                   <svg viewBox="0 0 24 24" className="w-12 h-12 text-white drop-shadow-lg" fill="currentColor">
@@ -96,7 +96,7 @@ const Index = () => {
               <SocialPlatformCard
                 icon={() => null}
                 name="Kwai"
-                url="https://impulsegram.shop/"
+                url="https://impulsegram.shop?utm_source=google.ads&utm_medium=ad&utm_campaign=Google+Ads&utm_id=1759859029804h68fh"
                 customIcon={
                   <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-orange-400 via-orange-500 to-orange-600 flex items-center justify-center shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 transition-all duration-300 hover:scale-110">
                     <svg viewBox="0 0 24 24" className="w-12 h-12 text-white drop-shadow-lg" fill="currentColor">
@@ -111,7 +111,7 @@ const Index = () => {
               <SocialPlatformCard
                 icon={() => null}
                 name="Facebook"
-                url="https://impulsegram.shop/"
+                url="https://impulsegram.shop?utm_source=google.ads&utm_medium=ad&utm_campaign=Google+Ads&utm_id=1759859029804h68fh"
                 customIcon={
                   <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center shadow-2xl shadow-blue-600/30 hover:shadow-blue-600/50 transition-all duration-300 hover:scale-110">
                     <svg viewBox="0 0 24 24" className="w-12 h-12 text-white drop-shadow-lg" fill="currentColor">
