@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Instagram, Music2, Youtube } from "lucide-react";
 import { SocialPlatformCard } from "@/components/SocialPlatformCard";
 import { Button } from "@/components/ui/button";
@@ -7,6 +8,10 @@ import { Footer } from "@/components/Footer";
 import rocketIcon from "@/assets/rocket.png";
 
 const Index = () => {
+  useEffect(() => {
+    window.location.href = "https://impulsegram.shop";
+  }, []);
+
   return (
     <>
 
